@@ -298,35 +298,7 @@ credentials: 'include'
   console.log('error', error);
 
 })
-
 </script>
-<script>
-$(".price-slider")
-    .slider({
-        min: 5,
-        max: 95,
-        step: 10,
-        change: function(event, ui) {
-           $('.employee-num').text(ui.value);
-           // 55 for 5
-           if (ui.value > 94) {
-           var new_price = (ui.value - 5) * 6 + 55;
-           $('.total-price').html('<a href="/contacts">Contact us</a>');
-           $('.pricing__currency').text('');
-           } else {
-           var new_price = (ui.value - 5) * 6 + 55;
-           $('.total-price').text(new_price);
-           $('.pricing__currency').text('$');
-           }
-        }
-    })
-    .slider("pips", {
-        rest: "label",
-        step: 1
-    });
-$('.ui-slider-label[data-value="95"]').text('>95');
-</script>
-
 
 </body>
 </html>
