@@ -4135,12 +4135,12 @@ color: white;
     clear: both
 }
 .minority-svg-logo {
-    width: 65px;
+    width: 80px;
     display: inline-block;
     height: 49px;
     float: left;
-    margin-top: -6px;
-    margin-right: 9px
+    margin-top: -11px;
+    margin-right: -4px;
 }
 .browser-window-compare {
     width: 466px;
@@ -4733,4 +4733,11 @@ section.content-24.about-page.v-center.bg-midnight-blue {
   .god-section.god-secondary {
     width: 100% !important;
   }
+}
+
+
+
+#subscribtionbox {
+    padding: 0 0;
+    margin-bottom: -23px;
 }
